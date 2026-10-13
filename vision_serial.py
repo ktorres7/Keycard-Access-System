@@ -24,10 +24,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # Serial settings
 # ----------------------------------------------------------------------
 
-# Which message to send for each label number in labels.txt.
-# 0 Background -> nothing is sent
-# 1 Inhaler    -> "off"
-# 2 Sunscreen  -> "on"
+# Send a message to the Arduino based on the detected keycard.
+# 0 CORRECT_KEY -> Unlock access
+# 1 WRONG_KEY   -> Deny access
+# 2 NO_KEY      -> Return to locked state
+
 MESSAGE_FOR_LABEL = {
     0: "CORRECT_KEY",
     1: "WRONG_KEY",
