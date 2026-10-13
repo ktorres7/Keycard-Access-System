@@ -1,6 +1,6 @@
 PROJECT OVERVIEW
 
-For my project, I created a Keycard Access System using Teachable Machine, Python, and an Arduino Meda 2560. 
+For my project, I created a Keycard Access System using Teachable Machine, Python, and an Arduino Mega 2560. 
 
 I trained an image recognition model to identify three scenarios
 1) CORRECT_KEY - Green LED turns on, and the Servo rotates 90 degrees to simulate unlocking a door.
@@ -11,8 +11,7 @@ The camera captures the image, Python then uses my trained model to identify the
 
 My Keycard Access System project combines image recognition with multiple hardware components.
 
-
-CHALLENEGES AND TROUBLESHOOTING
+CHALLENGES AND TROUBLESHOOTING
 
 While working on my Keycard Access System, I ran into several challenges,
 1) Python and Package Installation
